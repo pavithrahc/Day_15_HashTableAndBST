@@ -69,9 +69,10 @@ public class BinarySearchTree {
 			}
 
 			else if (data < parent.data) {
-				System.out.print("The given element " + data + " is the left node of the Parent Node " + parent.data);
+				System.out.println("The given element " + data + " is the left node of the Parent Node " + parent.data);
 			} else {
-				System.out.print("The given element " + data + " is the right node of the Parent Node " + parent.data);
+				System.out
+						.println("The given element " + data + " is the right node of the Parent Node " + parent.data);
 			}
 
 			return;
@@ -86,5 +87,4 @@ public class BinarySearchTree {
 			search(root.right, data, root);
 		}
 	}
-
 }
